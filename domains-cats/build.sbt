@@ -1,27 +1,27 @@
-libraryDependencies += "org.typelevel" %%% "cats-free" % "2.0.0" % Test
+libraryDependencies += "org.typelevel" %%% "cats-free" % "2.8.0" % Test
 
-libraryDependencies += "org.typelevel" %%% "cats-free" % "2.0.0" % Optional // For Scaladoc
+libraryDependencies += "org.typelevel" %%% "cats-free" % "2.8.0" % Optional // For Scaladoc
 
-libraryDependencies += "org.typelevel" %%% "cats-core" % "2.0.0"
+libraryDependencies += "org.typelevel" %%% "cats-core" % "2.8.0"
 
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.2.13" % Test
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-catch" % "1.5.5"
+libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-catch" % "2.0.0-M2"
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-monadic" % "1.5.5"
+libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-monadic" % "2.0.0-M2"
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-return" % "1.5.5"
+libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-return" % "2.0.0-M2"
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-shift" % "1.5.5" % Optional
+libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-shift" % "2.0.0-M2" % Optional
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-yield" % "1.5.5" % Optional
+libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-yield" % "2.0.0-M2" % Optional
 
 addCompilerPlugin(
-  "com.thoughtworks.dsl" %% "compilerplugins-bangnotation" % "1.5.5"
+  "com.thoughtworks.dsl" %% "compilerplugins-bangnotation" % "2.0.0-M2"
 )
 
 addCompilerPlugin(
-  "com.thoughtworks.dsl" %% "compilerplugins-reseteverywhere" % "1.5.5"
+  "com.thoughtworks.dsl" %% "compilerplugins-reseteverywhere" % "2.0.0-M2"
 )
 
 scalacOptions ++= {
