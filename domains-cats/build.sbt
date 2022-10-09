@@ -16,9 +16,9 @@ libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-shift" % "2.0.0-M1" 
 
 libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-yield" % "2.0.0-M1" % Optional
 
-addCompilerPlugin(
-  "com.thoughtworks.dsl" %% "compilerplugins-bangnotation" % "2.0.0-M1"
-)
+// addCompilerPlugin(
+//  "com.thoughtworks.dsl" %% "compilerplugins-bangnotation" % "2.0.0-M1"
+// )
 
 addCompilerPlugin(
   "com.thoughtworks.dsl" %% "compilerplugins-reseteverywhere" % "2.0.0-M1"
