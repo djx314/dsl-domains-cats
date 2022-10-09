@@ -2,7 +2,7 @@ enablePlugins(Example)
 
 import Ordering.Implicits._
 
-libraryDependencies += "org.typelevel" %%% "cats-effect" % "2.0.0" % Optional
+libraryDependencies += "org.typelevel" %%% "cats-effect" % "3.3.14" % Optional
 
 Test / sourceGenerators := {
   (Test / sourceGenerators).value.filterNot { sourceGenerator =>
