@@ -6,7 +6,7 @@ libraryDependencies += "org.typelevel" %%% "cats-core" % "2.8.0"
 
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.2.13" % Test
 
-libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-catch" % "2.0.0-M2"
+// libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-catch" % "2.0.0-M2"
 
 libraryDependencies += "com.thoughtworks.dsl" %%% "keywords-monadic" % "2.0.0-M2"
 
